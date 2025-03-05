@@ -1,20 +1,20 @@
-package test.ex;
+package test.genericEx;
 
 import animal.Cat;
 import animal.Dog;
 
-public class MethodMain {
+public class GenericMethodMain {
     public static void main(String[] args) {
-        /**
-         * Integer i = 1;
-         *         GenericMethod.objMethod(i);
-         *
-         *         //타입명시전달
-         *         System.out.println(
-         *                 GenericMethod.<Integer>genericMethod(i));
-         *         //인자값으로 타입추론 가능
-         *         System.out.println(
-         *                 GenericMethod.numberMethod(i));
+        /*
+          Integer i = 1;
+                  GenericMethod.objMethod(i);
+
+                  //타입명시전달
+                  System.out.println(
+                          GenericMethod.<Integer>genericMethod(i));
+                  //인자값으로 타입추론 가능
+                  System.out.println(
+                          GenericMethod.numberMethod(i));
          */
 
         //////////////////////////////////////////////////

@@ -1,4 +1,4 @@
-package test.ex;
+package test.genericEx;
 
 public class GenericMethod {
     public static Object objMethod(Object obj){
