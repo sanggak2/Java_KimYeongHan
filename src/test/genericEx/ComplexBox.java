@@ -1,4 +1,4 @@
-package test.ex;
+package test.genericEx;
 
 import animal.Animal;
 
