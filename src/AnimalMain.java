@@ -12,5 +12,6 @@ public class AnimalMain {
         animalBox.setValue(dog);
         System.out.println(animalBox.getValue());
 
+
     }
 }
