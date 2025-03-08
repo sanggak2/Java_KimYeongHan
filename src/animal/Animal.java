@@ -28,4 +28,5 @@ public class Animal {
                 ", size=" + size +
                 '}';
     }
+
 }
