@@ -2,8 +2,6 @@ package set;
 
 import set.member.Member;
 
-import java.util.ArrayList;
-
 public class JavaHashCodeMain {
     public static void main(String[] args) {
         //Object의 기본 hashCode는 객체 참조값을 기반으로 만듬

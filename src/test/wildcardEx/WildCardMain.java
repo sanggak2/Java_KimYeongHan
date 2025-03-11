@@ -1,7 +1,6 @@
 package test.wildcardEx;
 
 import animal.Animal;
-import animal.Cat;
 import animal.Dog;
 
 public class WildCardMain {
