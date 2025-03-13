@@ -8,7 +8,7 @@ public class Player {
 
     public Player(String name) {
         this.name = name;
-        hand = new TreeSet<>();
+        this.hand = new TreeSet<>();
     }
 
     public void draw(Deck deck) {

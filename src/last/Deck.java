@@ -3,7 +3,6 @@ package last;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
-import java.util.TreeSet;
 
 //\u2660: 스페이드, \u2665: 하트, \u2666: 다이아, \u2663: 클로버
 public class Deck {
