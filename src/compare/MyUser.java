@@ -1,7 +1,5 @@
 package compare;
 
-import org.jetbrains.annotations.NotNull;
-
 public class MyUser implements Comparable<MyUser> {
     private String id;
     private int age;
