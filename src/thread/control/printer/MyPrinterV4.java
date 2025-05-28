@@ -6,7 +6,7 @@ import java.util.concurrent.ConcurrentLinkedQueue;
 
 import static util.MyLogger.log;
 
-public class MyPrinterV3 {
+public class MyPrinterV4 {
     public static void main(String[] args) {
         Printer printer = new Printer();
         Thread printerThread = new Thread(printer, "printer");
@@ -32,6 +32,7 @@ public class MyPrinterV3 {
         public void run() {
             while(!Thread.interrupted()) {
                 if(jobQueue.isEmpty()) {
+                    Thread.yield();
                     continue;
                 }
 
