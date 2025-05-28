@@ -1,4 +1,4 @@
-package thread.ex1;
+package thread.ex.ex1;
 
 import static util.MyLogger.log;
 
