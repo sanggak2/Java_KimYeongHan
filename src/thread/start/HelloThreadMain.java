@@ -11,5 +11,9 @@ public class HelloThreadMain {
         System.out.println(Thread.currentThread().getName() + ": start() 호출후");
 
         System.out.println(Thread.currentThread().getName() + ": main() end");
+
+    }
+    private class A<T >{
+
     }
 }
